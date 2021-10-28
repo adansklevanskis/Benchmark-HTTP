@@ -44,6 +44,8 @@ Agora é só aguardar o término da execução, ao finalizar no console você ve
 ![Console](https://github.com/wellingtonpoll/Benchmark-HTTP/blob/main/assets/banchmark_console_summary.png)
 
 Esses resultados nos mostram que a biblioteca Flurl se mostrou muito mais eficiente, sendo mais rápida, consumindo menos memória, sendo melhor gerenciada pelo GC e o mais importante, um número de operações/segundo bem superior se compararmos com o HTTP Client do System.Net.Http e com o RestSharp. 
+A execução utilizada com a injeção do IHttpClientFactory, se mostrou muito eficiente, além disso, podemos utilizá-la com injeção de dependência e configurar políticas de resiliência desacoplado. 
+
 A execução do banchmark também gera o diretório "__banchmark-http/src/Benchmark.Http.Sample.ConsoleApp/BenchmarkDotNet.Artifacts__" contendo arquivos com os mesmos resultados.
 
 ## License
