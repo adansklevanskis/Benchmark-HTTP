@@ -51,3 +51,4 @@ A execução do banchmark também gera o diretório "__banchmark-http/src/Benchm
 ## License
 
 MIT
+
