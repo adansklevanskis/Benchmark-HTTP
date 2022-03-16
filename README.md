@@ -49,6 +49,4 @@ A execução utilizada com a injeção do IHttpClientFactory, se mostrou muito e
 A execução do banchmark também gera o diretório "__banchmark-http/src/Benchmark.Http.Sample.ConsoleApp/BenchmarkDotNet.Artifacts__" contendo arquivos com os mesmos resultados.
 
 ## License
-
 MIT
-
